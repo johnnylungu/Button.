@@ -1,0 +1,42 @@
+body {
+  background-color: #222;
+}
+
+button {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#005c00), color-stop(#4dff4d), to(#005c00));
+  background-image: linear-gradient(#005c00, #4dff4d, #005c00);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  color: white;
+  border: 3.33333px solid #005c00;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px 1px #101010;
+          box-shadow: 0 0 5px 1px #101010;
+  text-shadow: 0px 0px 1px #005c00;
+  font-size: 25px;
+}
+
+button:hover {
+  -webkit-box-shadow: 0 0 1px 1px #101010;
+          box-shadow: 0 0 1px 1px #101010;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b3ffb3), color-stop(#005c00), to(#b3ffb3));
+  background-image: linear-gradient(#b3ffb3, #005c00, #b3ffb3);
+  border-color: green;
+}
+
+button:active {
+  -webkit-box-shadow: 0 0 1px 1px #101010;
+          box-shadow: 0 0 1px 1px #101010;
+  width: 100px;
+  height: 100px;
+  border-radius: 33.33333px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9ee3ef), color-stop(black), to(#9ee3ef));
+  background-image: linear-gradient(#9ee3ef, black, #9ee3ef);
+  border-color: #23b7d1;
+  font-size: 16.66667px;
+}
+/*# sourceMappingURL=button.css.map */
